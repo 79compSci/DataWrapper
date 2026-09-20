@@ -130,3 +130,7 @@ class Date:
             The date formatted as DD Month YYYY.
         """
         return self.__date.strftime("%d %B %Y")
+
+
+def date_class():
+    return None
